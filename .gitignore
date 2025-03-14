@@ -1,9 +1,9 @@
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -15,12 +15,40 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+outputs/
+*.log
+.env
+data/*.csv
+
+# Additional files
+*.pyc
+*.pyo
+*.pyd
+env/
 .env
 .venv
 venv/
-ENV/
 *.log
 .DS_Store 
